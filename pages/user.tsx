@@ -17,10 +17,6 @@ export default function User(): ReactElement {
     }
   }
 
-  const handleClick: React.MouseEventHandler<HTMLDivElement> = (e) => {
-    console.log("Click");
-  };
-
   useEffect(() => {
     getUserData();
   });
